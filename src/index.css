@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background: #121318;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background: #121318;
+    color: #e3e1e9;
+    font-family: Inter, sans-serif;
+    overscroll-behavior: none;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  a, button {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  main > :first-child { margin-top: 0 !important; }
+  main > :last-child { margin-bottom: 0 !important; }
+
+  ::selection {
+    background: rgba(225, 29, 72, 0.35);
+    color: #fffaf9;
+  }
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: 'liga';
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+@keyframes nexshaFadeUp {
+  from { opacity: 0; transform: translateY(28px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes nexshaSlideDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes nexshaGlow {
+  0%, 100% { opacity: .35; transform: scale(1); }
+  50% { opacity: .65; transform: scale(1.06); }
+}
+
+@keyframes nexshaPulseLine {
+  0% { stroke-dashoffset: 420; }
+  100% { stroke-dashoffset: 0; }
+}
+
+.reveal-animate {
+  animation: nexshaFadeUp .75s cubic-bezier(.22,1,.36,1) both;
+}
+
+.glow-animate {
+  animation: nexshaGlow 6s ease-in-out infinite;
+}
+
+@media (max-width: 767px) {
+  .font-display { font-size: 2.75rem; }
+  .font-headline-lg { font-size: 2rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+}
+/* Move n8n chatbot button upward */
+.n8n-chat {
+  transform: translateY(-60px) !important;
+}
