@@ -108,5 +108,5 @@
 }
 /* Move n8n chatbot button upward */
 .n8n-chat {
-  transform: translateY(-60px) !important;
+  transform: translateY(-10px) !important;
 }
