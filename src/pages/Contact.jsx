@@ -27,20 +27,20 @@ const channels = [
   {
     icon: "mail",
     title: "Client Engagements",
-    email: "hello@nexsha.agency",
-    href: "mailto:hello@nexsha.agency",
+    email: "hello@nexweb.agency",
+    href: "mailto:hello@nexweb.agency",
   },
   {
     icon: "handshake",
     title: "Press & Strategic Ventures",
-    email: "partners@nexsha.agency",
-    href: "mailto:partners@nexsha.agency",
+    email: "partners@nexweb.agency",
+    href: "mailto:partners@nexweb.agency",
   },
   {
     icon: "group_add",
     title: "Engineering & Design Roles",
-    email: "careers@nexsha.agency",
-    href: "mailto:careers@nexsha.agency",
+    email: "careers@nexweb.agency",
+    href: "mailto:careers@nexweb.agency",
   },
 ];
 

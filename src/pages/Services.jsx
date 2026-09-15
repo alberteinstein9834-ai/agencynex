@@ -673,7 +673,7 @@ export default function Services() {
               </h2>
 
               <p className="text-sm leading-6 text-on-surface-variant sm:text-base sm:leading-7">
-                Everything you need to know about partnering with NEXSHA on
+                Everything you need to know about partnering with NEXWEB on
                 your next technical deployment.
               </p>
             </div>

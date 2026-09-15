@@ -144,7 +144,7 @@ export default function Home() {
                     <span className="material-symbols-outlined text-[14px] text-primary">
                       lock
                     </span>
-                    dashboard.nexsha.io
+                    dashboard.nexweb.agency
                   </div>
 
                   <span className="material-symbols-outlined text-on-surface-variant text-[18px]">
@@ -833,7 +833,7 @@ export default function Home() {
 
             {[
               {
-                text: "NEXSHA solved our web app performance bottlenecks in three weeks flat. They rebuilt our core SaaS interface into React 19, increasing our self-serve trial activations by 68%.",
+                text: "NEXWEB solved our web app performance bottlenecks in three weeks flat. They rebuilt our core SaaS interface into React 19, increasing our self-serve trial activations by 68%.",
                 author: "Elena Rostova",
                 role: "CTO at NovaTech Global",
                 initials: "EL",
@@ -847,7 +847,7 @@ export default function Home() {
                 color: "text-secondary",
               },
               {
-                text: "Most agencies hand over messy code. NEXSHA gave us a robust, documented design system and an edge-rendered Next.js stack with 99+ mobile Lighthouse scores.",
+                text: "Most agencies hand over messy code. NEXWEB gave us a robust, documented design system and an edge-rendered Next.js stack with 99+ mobile Lighthouse scores.",
                 author: "Sarah Thorne",
                 role: "Head of Growth, Aura",
                 initials: "ST",

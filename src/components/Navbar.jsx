@@ -17,14 +17,14 @@ export default function Navbar() {
   const closeMenu = () => setMobileMenuOpen(false);
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 border-b border-outline-variant/20 bg-secondary-container/15 backdrop-blur-xl animate-[nexshaSlideDown_.65s_ease-out_both]">
+    <header className="fixed inset-x-0 top-0 z-50 border-b border-outline-variant/20 bg-secondary-container/15 backdrop-blur-xl animate-[nexwebSlideDown_.65s_ease-out_both]">
       <div className="mx-auto flex h-20 max-w-[1440px] items-center justify-between gap-4 px-4 sm:px-6 lg:px-8 xl:px-10">
         <Link to="/" onClick={closeMenu} className="group flex shrink-0 items-center gap-3">
           <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-[#f42b62] to-[#c9184a] text-xl font-extrabold text-white shadow-[0_10px_30px_rgba(225,29,72,.28)] transition-all duration-300 group-hover:-translate-y-0.5 group-hover:scale-105">
             N
           </div>
           <div className="leading-none">
-            <div className="font-headline-sm text-headline-sm font-extrabold tracking-tight text-white">NEXSHA</div>
+            <div className="font-headline-sm text-headline-sm font-extrabold tracking-tight text-white">NEXWEB</div>
             <div className="mt-1 text-[9px] font-semibold tracking-[0.28em] text-gray-500">DIGITAL AGENCY</div>
           </div>
         </Link>
@@ -35,7 +35,7 @@ export default function Navbar() {
               key={link.name}
               to={link.path}
               style={{ animationDelay: `${index * 70}ms` }}
-              className={({ isActive }) => `group relative px-4 py-3 text-sm font-semibold transition-all duration-300 animate-[nexshaFadeUp_.6s_ease-out_both] ${isActive ? 'text-white' : 'text-gray-400 hover:text-white'}`}
+              className={({ isActive }) => `group relative px-4 py-3 text-sm font-semibold transition-all duration-300 animate-[nexwebFadeUp_.6s_ease-out_both] ${isActive ? 'text-white' : 'text-gray-400 hover:text-white'}`}
             >
               {({ isActive }) => (
                 <>

@@ -26,7 +26,7 @@ const principles = [
     icon: "group_work",
     number: "04 / TALENT PROFILE",
     title: "Senior-Only Direct Teams",
-    text: "Zero junior delegates. Zero opaque account executive buffers. When you commission NEXSHA, you speak directly with experienced software architects and design leads who write the code and ship the features.",
+    text: "Zero junior delegates. Zero opaque account executive buffers. When you commission NEXWEB, you speak directly with experienced software architects and design leads who write the code and ship the features.",
     color: "secondary",
   },
 ];
@@ -212,7 +212,7 @@ function About() {
                 <div className="h-2.5 w-2.5 shrink-0 rounded-full bg-surface-bright sm:h-3 sm:w-3" />
 
                 <span className="ml-1 truncate font-mono text-[9px] text-on-surface-variant sm:ml-3 sm:text-xs">
-                  nexsha.studio/production-telemetry
+                  nexweb.agency/production-telemetry
                 </span>
               </div>
 
@@ -483,7 +483,7 @@ function About() {
               </span>
 
               <h2 className="mb-4 font-headline-lg text-2xl leading-tight tracking-tight text-on-surface sm:text-3xl md:text-headline-lg">
-                The NEXSHA Trajectory
+                The NEXWEB Trajectory
               </h2>
 
               <p className="font-body-lg text-body-lg leading-relaxed text-on-surface-variant">
@@ -562,7 +562,7 @@ function About() {
               </div>
 
               <h2 className="break-words font-headline-lg text-2xl leading-tight tracking-tight text-on-surface sm:text-3xl md:text-headline-lg">
-                The Architects Behind NEXSHA.
+                The Architects Behind NEXWEB.
               </h2>
             </div>
 
